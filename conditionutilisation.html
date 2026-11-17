@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Conditions d’Utilisation de Solerys rp</title>
+<style>
+:root{
+  --bg:#f6f7fb;--surface:#fff;--text:#1f2330;--muted:#5d6377;--border:#e2e5ef;
+  --accent:#5865f2;--accent-soft:#eceefe;--on-accent:#fff;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){--bg:#14161f;--surface:#1c1f2b;--text:#e7e9f2;--muted:#9aa1b8;--border:#2c3042;--accent:#8b95ff;--accent-soft:#25294a;--on-accent:#10121a;color-scheme:dark}
+}
+:root[data-theme="dark"]{--bg:#14161f;--surface:#1c1f2b;--text:#e7e9f2;--muted:#9aa1b8;--border:#2c3042;--accent:#8b95ff;--accent-soft:#25294a;--on-accent:#10121a;color-scheme:dark}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 16px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.7 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.hero{background:linear-gradient(135deg,#5865f2,#7a5af8);color:#fff;padding:48px 20px 56px;text-align:center}
+.hero h1{margin:0 0 8px;font-size:clamp(1.7rem,5vw,2.6rem);line-height:1.2}
+.hero p{margin:0 auto;max-width:640px;opacity:.92}
+.badge{display:inline-block;margin-top:18px;padding:4px 14px;border-radius:99px;background:rgba(255,255,255,.2);font-size:.85rem}
+.wrap{max-width:1040px;margin:-28px auto 40px;padding:0 16px;display:grid;grid-template-columns:240px minmax(0,1fr);gap:24px;align-items:start}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:14px}
+nav.toc{position:sticky;top:16px;padding:16px 18px}
+nav.toc strong{display:block;margin-bottom:8px;font-size:.8rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+nav.toc a{display:block;padding:4px 0;color:var(--text);text-decoration:none;font-size:.92rem}
+nav.toc a:hover{color:var(--accent)}
+main{padding:12px 28px 28px}
+section{padding:18px 0;border-bottom:1px solid var(--border)}
+section:last-child{border-bottom:0}
+h2{display:flex;gap:10px;align-items:center;margin:0 0 10px;font-size:1.25rem}
+h2 span{flex:none;display:inline-grid;place-items:center;width:30px;height:30px;border-radius:9px;background:var(--accent-soft);color:var(--accent);font-size:.9rem}
+p{margin:0 0 10px}
+ul{margin:0 0 10px;padding-left:22px}
+li{margin:4px 0}
+.note{margin:14px 0 0;padding:12px 16px;border-left:4px solid var(--accent);background:var(--accent-soft);border-radius:8px;font-size:.93rem}
+a{color:var(--accent)}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:0 16px 32px}
+@media (max-width:820px){
+  .wrap{grid-template-columns:1fr;margin-top:-24px}
+  nav.toc{position:static}
+  main{padding:8px 18px 22px}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <h1>Conditions d’Utilisation</h1>
+  <p>Les règles qui encadrent l’utilisation de <b data-cfg="bot">Solerys rp</b>, le bot Discord de modération, de tickets, de giveaways et de niveaux.</p>
+  <span class="badge">Dernière mise à jour : <span data-cfg="date">7 novembre 2026</span></span>
+</header>
+
+<div class="wrap">
+<nav class="card toc" aria-label="Sommaire">
+  <strong>Sommaire</strong>
+  <a href="#acceptation">1. Acceptation</a>
+  <a href="#service">2. Description du service</a>
+  <a href="#acces">3. Conditions d’accès</a>
+  <a href="#regles">4. Règles d’utilisation</a>
+  <a href="#fonctions">5. Fonctionnalités</a>
+  <a href="#donnees">6. Données personnelles</a>
+  <a href="#admins">7. Administrateurs de serveur</a>
+  <a href="#disponibilite">8. Disponibilité</a>
+  <a href="#responsabilite">9. Responsabilité</a>
+  <a href="#propriete">10. Propriété intellectuelle</a>
+  <a href="#suspension">11. Suspension</a>
+  <a href="#modifications">12. Modifications</a>
+  <a href="#contact">13. Droit et contact</a>
+</nav>
+
+<main class="card">
+<section id="acceptation">
+  <h2><span>1</span>Acceptation des conditions</h2>
+  <p>En ajoutant <b data-cfg="bot">Solerys rp</b> à un serveur ou en utilisant l’une de ses commandes ou l’un de ses boutons, vous acceptez les présentes Conditions d’Utilisation. Si vous ne les acceptez pas, merci de ne pas utiliser le bot.</p>
+</section>
+
+<section id="service">
+  <h2><span>2</span>Description du service</h2>
+  <p>Le bot est un outil gratuit pour serveurs Discord qui propose notamment :</p>
+  <ul>
+    <li>des messages d’arrivée et de départ ;</li>
+    <li>un système de tickets de support ;</li>
+    <li>des annonces et des giveaways ;</li>
+    <li>un suivi de prise de service du staff (service, pause, reprise, fin) ;</li>
+    <li>des avis sur le staff et les administrateurs ;</li>
+    <li>des outils de modération (avertissements et bannissements) ;</li>
+    <li>un système de niveaux et de classement.</li>
+  </ul>
+</section>
+
+<section id="acces">
+  <h2><span>3</span>Conditions d’accès</h2>
+  <ul>
+    <li>Vous devez respecter les <a href="https://discord.com/terms" target="_blank" rel="noopener">Conditions d’utilisation de Discord</a> et ses <a href="https://discord.com/guidelines" target="_blank" rel="noopener">Règles de la communauté</a>.</li>
+    <li>Vous devez avoir l’âge minimum requis par Discord dans votre pays (13 ans au minimum).</li>
+    <li>Pour ajouter le bot à un serveur, vous devez y disposer de la permission « Gérer le serveur » ou d’être administrateur.</li>
+  </ul>
+</section>
+
+<section id="regles">
+  <h2><span>4</span>Règles d’utilisation</h2>
+  <p>Il est interdit de :</p>
+  <ul>
+    <li>détourner le bot, exploiter une faille ou tenter d’y accéder sans autorisation ;</li>
+    <li>spammer les commandes, les boutons ou les tickets, ou tenter de saturer le service ;</li>
+    <li>tricher pour gagner de l’XP, des giveaways ou fausser les avis (faux comptes, automatisation) ;</li>
+    <li>utiliser le bot pour harceler, menacer, diffuser des contenus illégaux ou porter atteinte à autrui ;</li>
+    <li>usurper l’identité d’un membre du staff ou d’un administrateur.</li>
+  </ul>
+</section>
+
+<section id="fonctions">
+  <h2><span>5</span>Règles propres à chaque fonctionnalité</h2>
+  <ul>
+    <li><b>Tickets :</b> ils sont privés, visibles par leur auteur et par le staff. Le staff peut les fermer à tout moment. Ne partagez pas d’informations sensibles (mots de passe, données bancaires).</li>
+    <li><b>Giveaways :</b> chaque serveur organisateur est seul responsable de ses lots et de leur remise. Le tirage est aléatoire. Le bot n’intervient pas dans la livraison des lots.</li>
+    <li><b>Niveaux :</b> l’XP est gagnée en envoyant des messages, avec un délai entre deux gains. Les administrateurs peuvent ajuster ou remettre à zéro l’XP en cas d’abus.</li>
+    <li><b>Prise de service :</b> réservée au staff. Le temps de service et de pause est enregistré à des fins d’organisation interne.</li>
+    <li><b>Avis :</b> ils doivent être sincères, respectueux et sans insultes. Les avis abusifs peuvent être supprimés.</li>
+    <li><b>Warns et bans :</b> ils sont décidés par les modérateurs du serveur, pas par le bot lui-même. Un ban automatique peut être configuré après un certain nombre d’avertissements.</li>
+  </ul>
+</section>
+
+<section id="donnees">
+  <h2><span>6</span>Données personnelles</h2>
+  <p>Pour fonctionner, le bot traite uniquement les données nécessaires :</p>
+  <ul>
+    <li>identifiants Discord (utilisateurs, salons, rôles, serveurs) ;</li>
+    <li>XP et niveau, avertissements (raison, date, modérateur), avis (note et commentaire) ;</li>
+    <li>durées de service et de pause du staff, participations aux giveaways ;</li>
+    <li>journaux d’actions de modération et de tickets.</li>
+  </ul>
+  <p>Le bot ne stocke pas le contenu de vos messages : il compte seulement les messages pour calculer l’XP. Les données ne sont ni vendues ni cédées à des tiers.</p>
+  <p>Elles sont conservées tant que le bot est actif sur le serveur concerné. Conformément au RGPD, vous pouvez demander l’accès, la rectification ou la suppression de vos données en nous contactant (voir article 13).</p>
+</section>
+
+<section id="admins">
+  <h2><span>7</span>Responsabilité des administrateurs de serveur</h2>
+  <p>Les administrateurs qui ajoutent le bot sont responsables de son paramétrage, des sanctions prononcées, de l’information de leurs membres sur le traitement des données, et du respect des lois applicables sur leur serveur.</p>
+</section>
+
+<section id="disponibilite">
+  <h2><span>8</span>Disponibilité du service</h2>
+  <p>Le bot est fourni « en l’état », sans garantie de disponibilité permanente. Des interruptions peuvent survenir (maintenance, mises à jour, pannes de Discord ou de l’hébergeur). Des fonctionnalités peuvent être ajoutées, modifiées ou retirées à tout moment.</p>
+</section>
+
+<section id="responsabilite">
+  <h2><span>9</span>Limitation de responsabilité</h2>
+  <p>Dans la limite permise par la loi, l’éditeur du bot ne peut être tenu responsable des dommages indirects, des pertes de données ou de la perte de niveaux, d’avis ou d’historiques, des sanctions décidées par les modérateurs d’un serveur, ni du contenu publié par les utilisateurs.</p>
+</section>
+
+<section id="propriete">
+  <h2><span>10</span>Propriété intellectuelle</h2>
+  <p>Le code, le nom, le logo et les contenus du bot appartiennent à son éditeur. « Discord » est une marque de Discord Inc. ; ce bot n’est ni affilié ni approuvé par Discord. Toute reproduction ou revente non autorisée est interdite.</p>
+</section>
+
+<section id="suspension">
+  <h2><span>11</span>Suspension et résiliation</h2>
+  <p>Nous pouvons restreindre ou bloquer l’accès au bot, pour un utilisateur ou un serveur, en cas de non-respect de ces conditions, sans préavis si la situation l’exige. Vous pouvez cesser d’utiliser le bot à tout moment en le retirant de votre serveur.</p>
+</section>
+
+<section id="modifications">
+  <h2><span>12</span>Modification des conditions</h2>
+  <p>Ces conditions peuvent évoluer. La date de dernière mise à jour figure en haut de cette page. Continuer à utiliser le bot après une modification vaut acceptation des nouvelles conditions.</p>
+</section>
+
+<section id="contact">
+  <h2><span>13</span>Droit applicable et contact</h2>
+  <p>Ces conditions sont soumises au droit français. En cas de litige, une solution amiable sera recherchée avant toute action devant les tribunaux compétents.</p>
+  <div class="note">Une question, une demande de suppression de données ou un signalement ?<br>
+  Serveur de support : <b data-cfg="support">https://discord.gg/nauwjnZHX</b><br>
+  E-mail : <b data-cfg="email"></b></div>
+</section>
+</main>
+</div>
+
+<footer>© <span id="y">2026</span> <span data-cfg="bot">Solerys rp</span> — Non affilié à Discord Inc.</footer>
+
+<script>
+// Modifie uniquement ces valeurs pour personnaliser toute la page
+const CFG = {
+  bot: "Solerys rp",
+  date: "13 novembre 2026",
+  support: "https://discord.gg/nauwjnZHX",
+};
+document.querySelectorAll("[data-cfg]").forEach(function (el) {
+  var v = CFG[el.dataset.cfg];
+  if (v) el.textContent = v;
+});
+document.title = "Conditions d’Utilisation — " + CFG.bot;
+document.getElementById("y").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
